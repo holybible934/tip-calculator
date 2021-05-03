@@ -10,6 +10,5 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun test() {
-        println("Hello World!")
     }
 }
