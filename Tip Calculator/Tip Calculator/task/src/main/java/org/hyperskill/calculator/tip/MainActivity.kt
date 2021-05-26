@@ -3,7 +3,6 @@ package org.hyperskill.calculator.tip
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
-import android.util.Log
 import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
@@ -43,7 +42,6 @@ class MainActivity : AppCompatActivity() {
                     textView.text = ""
                 } else {
                     val tipAmount = DecimalFormat("0.00").format(billValue * value / 100.0)
-//                    Log.d("123", "onValueChange: " + )
                     textView.text = "Tip amount: $tipAmount"
                 }
             }
